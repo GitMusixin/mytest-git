@@ -33,7 +33,7 @@ public class ChainCartClient {
 
         ShoppingCart cart = new OtherPayShopping(products);
 
-        //注入优惠 ---master
+        //注入优
         cart.setDiscount(multyDiscount);
 
         cart.submitOrder();
