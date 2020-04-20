@@ -33,7 +33,7 @@ public class ChainCartClient {
 
         ShoppingCart cart = new OtherPayShopping(products);
 
-        //注入优惠 ---msx rebase
+        //注入优惠 --- rebase
         cart.setDiscount(multyDiscount);
 
         cart.submitOrder();
